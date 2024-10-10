@@ -1,0 +1,199 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 15px 20px;
+    margin-top: 20px;
+}
+
+.container1 {
+    align-items: flex-start;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.quadro1, .quadro2 {
+    margin: 0;
+    width: 50%;
+}
+
+.quadro2 img {
+    margin-left: -100px;
+    position: relative;
+} 
+
+.quadro1 p, .informacao-text p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.botao, .botao2 {
+    display: inline-block;
+    padding: 14px 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.botao {
+    background-color: #009748;
+    color: black;
+    padding: 10px 50px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.botao2 {
+    background-color: transparent;
+    color: white;
+    padding: 10px 50px;
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+.informacao, .informacao2 {
+    display: flex;
+    text-align: right;
+    margin: 50px 0;
+}
+
+.informacao-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.contato {
+    padding: 20px;
+    text-align: center;
+}
+
+.contato input, .contato textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.contato button {
+    color: #ffffff;
+    background-color: #009748;
+    border: none;
+    padding: 10px 50px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+rodape {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color:  #ffffff;
+    font-size: 12px;
+}
+
+.comboDev {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+    padding: 20px;
+}
+
+.comboDev-text {
+    flex: 1;
+    font-size: 14px;
+    text-align: center;
+    padding-right: 20px;
+    color: white;
+}
+
+.comboDev-botao {
+    background-color: #009748;
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.comboDev-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.download-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.download-container img {
+    max-width: 200px;
+    height: auto;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.text-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 18px;
+}
+
+.devices-section {
+    text-align: center;
+    background-color: #000;
+    padding: 50px 0;
+}
+
+.text7 h2 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.devices-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.device {
+    text-align: center;
+    color: white;
+}
+
+.device img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.device h3 {
+    font-size: 18px;
+    margin-top: 0;
+}
